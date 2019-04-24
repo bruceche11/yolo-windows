@@ -1,6 +1,6 @@
 LargeImageDetect-yolo-windows
 ===============
-修改yolo-windows[源码](https://github.com/AlexeyAB/darknet)，添加高分辨率图像分割检测代码，可封装为lib,dll方便移植，提供模型实现航拍车辆检测，其中模型训练在ubuntu下完成，应用在windows下。
+修改yolo-windows[源码](https://github.com/AlexeyAB/darknet)，添加高分辨率图像分割检测代码，可封装为lib,dll方便移植，提供模型实现航拍车辆检测，其中模型训练在Ubuntu下完成，应用在Windows下。
 
 项目要点
 --------
@@ -49,4 +49,4 @@ int dont_show = 1;
 
 More Details
 -------------
-Ubuntu下模型训练请访问[博客](https://www.cnblogs.com/qinguoyi/p/8507803.html),Windows下有关滑窗裁剪，文件命名请访问[博客](https://www.cnblogs.com/qinguoyi/p/9983858.html).
+Ubuntu下模型训练请访问[博客](https://www.cnblogs.com/qinguoyi/p/8507803.html)，Windows下有关滑窗裁剪，文件命名请访问[博客](https://www.cnblogs.com/qinguoyi/p/9983858.html).
