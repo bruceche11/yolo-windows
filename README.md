@@ -34,7 +34,7 @@ LargeImageDetect-yolo-windows
 		char filename[] = "x64\\data\\testSplit";
 		```
 * 可以将代码封装为lib,dll，方便移植
-* 模型只用来检测航拍车辆，[![HUAWEI](https://img.shields.io/badge/DownLoad-Model-green.svg)](https://pan.baidu.com/s/1VoOpBiWfq2DWsn7kMTZZiwl)下载后放入build\darknet\x64文件夹下
+* 模型只用来检测航拍车辆，[![HUAWEI](https://img.shields.io/badge/DownLoad-Model-green.svg)](https://pan.baidu.com/s/1niexg839RQOewoLBOidhlg)下载后放入build\darknet\x64文件夹下,提取码：1bwd
 * 运行显示多幅图，最后一张为超大图检测效果，若不显示中间图，修改detector.c中run_detector
 
 ```C++
