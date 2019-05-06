@@ -44,11 +44,9 @@ int dont_show = 1;
 模型测试
 --------
 * 提取码：gqnv，模型下载[![HUAWEI](https://img.shields.io/badge/DownLoad-Model-green.svg)](https://pan.baidu.com/s/18r_Vj5jstC--yfBmDrB_xw)
-* 航拍高度均为100m
+* 航拍高度为100m，只检测车辆
 
 <div align=center><img width="400" height="382" src="https://github.com/qinguoyi/yolo-windows/blob/master/result/100_1.png"/></div> 
-
-<div align=center><img width="400" height="280" src="https://github.com/qinguoyi/yolo-windows/blob/master/result/100_2.png"/></div> 
 
 环境配置
 --------
