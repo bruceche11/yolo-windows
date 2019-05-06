@@ -34,13 +34,21 @@ LargeImageDetect-yolo-windows
 		char filename[] = "x64\\data\\testSplit";
 		```
 * 可以将代码封装为lib,dll，方便移植
-* 模型只用来检测航拍车辆，[![HUAWEI](https://img.shields.io/badge/DownLoad-Model-green.svg)](https://pan.baidu.com/s/1niexg839RQOewoLBOidhlg)下载后放入build\darknet\x64文件夹下,提取码：1bwd
+* 模型只用来检测航拍车辆，下载后放入build\darknet\x64文件夹下
 * 运行显示多幅图，最后一张为超大图检测效果，若不显示中间图，修改detector.c中run_detector
 
 ```C++
 int dont_show = 1;
 ```
 
+模型测试
+--------
+* 提取码：gqnv，模型下载[![HUAWEI](https://img.shields.io/badge/DownLoad-Model-green.svg)](https://pan.baidu.com/s/18r_Vj5jstC--yfBmDrB_xw)
+* 航拍高度均为100m
+
+<div align=center><img width="240" height="170" src="https://github.com/qinguoyi/yolo-windows/blob/master/result/100_1.png"/></div> 
+
+<div align=center><img width="240" height="170" src="https://github.com/qinguoyi/yolo-windows/blob/master/result/100_2.png"/></div> 
 
 环境配置
 --------
