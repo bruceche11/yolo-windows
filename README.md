@@ -1,6 +1,6 @@
 LargeImageDetect-yolo-windows
 ===============
-修改yolo-windows[源码](https://github.com/AlexeyAB/darknet)，添加高分辨率图像分割检测代码，可封装为lib,dll方便移植，提供模型实现航拍车辆检测，其中模型训练在Ubuntu下完成，应用在Windows下。
+修改yolo-windows源码[![HUAWEI](https://img.shields.io/badge/link-Darknet-blue.svg)](https://github.com/AlexeyAB/darknet)，添加高分辨率图像分割检测代码，可封装为lib,dll方便移植，提供模型实现航拍车辆检测，其中模型训练在Ubuntu下完成，应用在Windows下。
 
 项目要点
 --------
@@ -34,8 +34,7 @@ LargeImageDetect-yolo-windows
 		char filename[] = "x64\\data\\testSplit";
 		```
 * 可以将代码封装为lib,dll，方便移植
-
-* 模型只用来检测航拍车辆，下载后[![HUAWEI](https://img.shields.io/badge/DownLoad-Model-green.svg)](https://pan.baidu.com/s/1VoOpBiWfq2DWsn7kMTZZiwl)放入build\darknet\x64文件夹下
+* 模型只用来检测航拍车辆，[![HUAWEI](https://img.shields.io/badge/DownLoad-Model-green.svg)](https://pan.baidu.com/s/1VoOpBiWfq2DWsn7kMTZZiwl)下载后放入build\darknet\x64文件夹下
 * 运行显示多幅图，最后一张为超大图检测效果，若不显示中间图，修改detector.c中run_detector
 
 ```C++
@@ -50,4 +49,4 @@ int dont_show = 1;
 
 More Details
 -------------
-Ubuntu下模型训练请访问[博客](https://www.cnblogs.com/qinguoyi/p/8507803.html)，Windows下有关滑窗裁剪，文件命名请访问[博客](https://www.cnblogs.com/qinguoyi/p/9983858.html).
+Ubuntu下模型训练请访问博客![HUAWEI](https://img.shields.io/badge/myBlog-ModelTrain-red.svg)](https://www.cnblogs.com/qinguoyi/p/8507803.html)
