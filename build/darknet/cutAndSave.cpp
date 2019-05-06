@@ -6,7 +6,7 @@
 #include <io.h>
 
 #define _CRT_SECURE_NO_WARNINGS
-#define  SIZE 5
+#define  SIZE 4
 void removeDirFile(const char* dirPath){
 	
 	long Handle;
@@ -86,6 +86,7 @@ void add_zero(int n_, char *Out)
 	_itoa(n_, n, 10);
 
 	int size_ = strlen(n);
+
 	for (int i = 0; i < 4 - size_; i++){
 		strcat(Out, "0");
 	}
@@ -134,7 +135,7 @@ void cutImg(const char * ori_filename, const char * save_split_path){
 				char imgTempName[200];
 				strcpy(imgTempName, save_split_path);
 
-				
+				//std::cout << sizeof(char) << " "<< sizeof(Outi) << std::endl;
 				memset(Outi, 0, SIZE * sizeof(char));
 				char *Outj = (char *)malloc(SIZE * sizeof(char));
 				memset(Outj, 0, SIZE * sizeof(char));
@@ -155,10 +156,11 @@ void cutImg(const char * ori_filename, const char * save_split_path){
 				if (imgTemp.cols>10 && imgTemp.rows>10)
 					cv::imwrite(imgTempName, imgTemp);
 				//一定要释放内存
+				//std::cout << sizeof(Outi) << std::endl;
 				free(Outj);
 				Outj = NULL;
 			}
-
+			
 			free(Outi);
 			Outi = NULL;
 		}
