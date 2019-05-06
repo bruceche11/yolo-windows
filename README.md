@@ -49,4 +49,4 @@ int dont_show = 1;
 
 More Details
 -------------
-Ubuntu下模型训练请访问博客![HUAWEI](https://img.shields.io/badge/myBlog-ModelTrain-red.svg)](https://www.cnblogs.com/qinguoyi/p/8507803.html)
+Ubuntu下模型训练请访问博客[![HUAWEI](https://img.shields.io/badge/myBlog-ModelTrain-red.svg)](https://www.cnblogs.com/qinguoyi/p/8507803.html)
