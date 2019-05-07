@@ -55,4 +55,4 @@ int dont_show = 1;
 
 More Details
 -------------
-Ubuntu下模型训练请访问[![HUAWEI](https://img.shields.io/badge/Ubuntu-ModelTrain-red.svg)](https://www.cnblogs.com/qinguoyi/p/8507803.html)，Windows下滑窗处理请访问[![HUAWEI](https://img.shields.io/badge/Windows-SlideProcess-blue.svg)](https://www.cnblogs.com/qinguoyi/p/9983858.html)
+Ubuntu下模型训练请访问[![HUAWEI](https://img.shields.io/badge/Ubuntu-ModelTrain-red.svg)](https://www.cnblogs.com/qinguoyi/p/8507803.html)，Windows下滑窗处理请访问[![HUAWEI](https://img.shields.io/badge/Windows-SlideProcess-orange.svg)](https://www.cnblogs.com/qinguoyi/p/9983858.html)
