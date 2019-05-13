@@ -1,6 +1,6 @@
 LargeImageDetect-yolo-windows
 ===============
-修改yolo-windows源码[![HUAWEI](https://img.shields.io/badge/link-Darknet-blue.svg)](https://github.com/AlexeyAB/darknet)，添加高分辨率图像分割检测代码，可封装为lib,dll方便移植，提供模型实现航拍车辆检测，其中模型训练在Ubuntu下完成，应用在Windows下。
+修改[![HUAWEI](https://img.shields.io/badge/link-Darknet-blue.svg)](https://github.com/AlexeyAB/darknet)源码，添加高分辨率图像分割检测代码，可封装为lib,dll方便移植，提供模型实现航拍车辆检测，其中模型训练在Ubuntu下完成，应用在Windows下。
 
 项目要点
 --------
