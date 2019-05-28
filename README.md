@@ -47,6 +47,8 @@ int dont_show = 1;
 * 航拍高度为100m，只检测车辆
 
 <div align=center><img width="400" height="382" src="https://github.com/qinguoyi/yolo-windows/blob/master/result/100_1.png"/></div> 
+<div style="padding-right: 100 style="padding-left:200><img width="400" height="382" src="https://github.com/qinguoyi/yolo-windows/blob/master/result/100_1.png"/></div> 
+style="padding-right:
 
 环境配置
 --------
